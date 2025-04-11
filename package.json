@@ -1,0 +1,16 @@
+{
+  "name": "llm-security-dashboard",
+  "version": "1.0.0",
+  "description": "LLM Security Dashboard",
+  "scripts": {
+    "build": "parcel build templates/index.html --dist-dir dist",
+    "dev": "parcel templates/index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+} 
